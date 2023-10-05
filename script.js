@@ -28,6 +28,7 @@ document.querySelector(".check").addEventListener("click",
         displayMessege('You Lost the Game')
         document.querySelector(".score").textContent = 0;
       }
+      document.querySelector(".guess").value = "";
     }
   })
 document.querySelector(".again").addEventListener("click",
